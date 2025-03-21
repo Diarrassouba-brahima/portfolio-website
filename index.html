@@ -3,13 +3,358 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JS/scipts.js"></script>
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm learning Git & GitHub!</p>
-    </header>
+    <nav id="desktop-nav">
+        <div class="logo">Diarrassouba Brahima</div>
+        
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Diarrassouba Brahima</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img decoding="async" id="profile1" src="IMAGES/dib1.JPG" alt="John Doe's profile picture" title="Diarrassouba Brahima" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Diarrassouba Brahima</h1>
+            <p class="section__text__p2">Web Developer</p>
+            <div class="btn-container">
+                <a href="https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf" target="_blank" rel="noopener">
+                    <button class="btn btn-color-2">
+                        See Resume
+    
+                    </button>
+                </a>
+                <button class="btn btn-color-1">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <a target="_blank" href="https://linkedin.com/in/ibrahim-diarrassouba-a60768b0"  rel="noopener">
+                    <img decoding="async" src="IMAGES/lin1.png" alt="My LinkedIn profile" class="icon" />
+                </a>
+    
+                <a target="_blank" href="https://github.com/Diarrassouba-brahima" rel="noopener">
+                    <img decoding="async" src="IMAGES/gith1.png" alt="My Github profile" class="icon" />
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title" id="aboutTitle">About Me</h1>
+        <div class="section-container">
+    
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img decoding="async" src="IMAGES/iut1.jpeg" alt="Experience icon" class="icon" />
+                        <h3>Educational Experience</h3>
+                        <p>2+ years <br />Frontend/Backend Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img decoding="async" src="IMAGES/iut1.jpeg" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>Bachelor of Computer Application<br /></p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I'm a <span class="highlight">Web Developer</span>, specializing in building high-quality websites and web applications. I have experience developing dynamic, responsive, and user-friendly applications that enhance user engagement and deliver seamless experiences. My expertise includes <span class="highlight">JavaScript, React & Redux</span>, ensuring robust and scalable solutions for web and mobile platforms.  
+                    
+                        I enjoy turning complex problems into simple, beautiful, and intuitive designs, considering all aspects of <span class="highlight">UI/UX</span>. <br> A  
+                        <span class="highlight">Computer Science Engineer</span>, who loves to solve problems.  
+                    
+                        I have experience building high-performing, responsive web applications that provide a unique and intuitive user experience. I also have a <span class="highlight">keen interest in UI/UX</span>, complemented by strong design skills. <br>  
+                    
+                        I am a well-trained teammate who values collaboration and prioritizes communication to achieve goals within set deadlines. I enjoy being challenged and working on projects that push me outside of my comfort zone.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img decoding="async" src="IMAGES/html.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML5</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img decoding="async" src="IMAGES/css.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS3</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img decoding="async" src="IMAGES/js.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img decoding="async" src="IMAGES/react.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+    
+                        
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Development Tools &amp; Softwares</h2>
+                    <div class="article-container">
+                       
+                        <article>
+                            <img decoding="async" src="IMAGES/git.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img decoding="async" src="IMAGES/gith1.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img decoding="async" src="IMAGES/figma.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img decoding="async" src="IMAGES/canva.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        
+                        <article id="lastSkill">
+                            <img decoding="async" src="IMAGES/vs code.jpeg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>VS Code</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+    
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- project section  -->
+    
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img decoding="async" src="./assets/projects/proj1.jpg" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Rest FullAPI</h2>
+                    <div class="btn-container">
+                        <a target="_blank" href="https://github.com/Diarrassouba-brahima/Machine-learning" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Github
+                            </button>
+                        </a>
+    
+                        <a target="_blank" href="https://github.com" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Live Demo
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img decoding="async" src="./assets/projects/proj1.jpg" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Bank System Mana</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com/nikhilkamble02/" target="_blank" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://github.com" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Live Demo
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img decoding="async" src="./assets/projects/proj1.jpg" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Machine Learning Hand gesture</h2>
+                    <div class="btn-container">
+                        <a href="https://github.com/nikhilkamble02/" target="_blank" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Github
+                            </button>
+                        </a>
+                        <a target="_blank" href="https://github.com" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Live Demo
+                            </button>
+                        </a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+
+    
+    </section>
+    
+    <!-- blog section  -->
+    <section id="blogs">
+        <p class="section__text__p1">Have a Look on My Recent</p>
+        <h1 class="title">Blogs</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img decoding="async" src="./assets/blogs/blog demo.png" alt="Project 1" class="blog-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title" style="font-size:1.55rem">Blog Title 1</h2>
+                    <div class="btn-container">
+                        <a target="_blank" href="https://github.com/Diarrassouba-brahima/Machine-learning" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Read
+                            </button>
+                        </a>
+                         <button class="btn btn-color-2 project-btn">
+                          Live Demo
+                        </button> 
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img decoding="async" src="./assets/blogs/blog demo.png" alt="Project 2" class="blog-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Blog Title 2</h2>
+                    <div class="btn-container">
+                        <a target="_blank" href="https://medium.com/" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Read
+                            </button>
+                        </a>
+                        <button class="btn btn-color-2 project-btn">
+                        Live Demo
+                        </button> 
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img decoding="async" src="./assets/blogs/blog demo.png" alt="Project 3" class="blog-img" />
+                    </div>
+    
+                    <h2 class="experience-sub-title project-title">Blog Title 3</h2>
+                    <div class="btn-container">
+                        <a target="_blank" href="https://medium.com/" rel="noopener">
+                            <button class="btn btn-color-2 project-btn">
+                                Read
+                            </button>
+                        </a>
+                       <button class="btn btn-color-2 project-btn">
+                            Live Demo
+                            </button   > 
+                        </div>
+                </div>
+            </div>
+        </div>
+      
+    </section>
+    
+    
+    <!-- contact section  -->
+    
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img decoding="async" src="IMAGES/gml.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:benchicky87@gmail.com">benchicky87@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img decoding="async" src="IMAGES/lin1.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a target="_blank" href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer section  -->
+    
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 @Diarrassouba Brahima. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
